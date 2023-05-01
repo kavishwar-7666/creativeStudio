@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio {
+    width: 100%;
+    min-height: 500px;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.protfoliohead {
+
+    padding: 20px;
+
+
+}
+
+.portfoliobox {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(9, 50px);
+    grid-gap: 25px;
+}
+
+.portbox {
+    border-radius: 10px;
+    display: flex;
+    align-items: end;
+
+}
+
+.innerboxport {
+    width: 100%;
+    height: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #ff214f;
+    opacity: 0.7;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+
+
+.innerboxport p {
+    font-size: 25px;
+    color: white;
+    display: none;
+
+}
+
+.innerporticon {
+    width: 80px;
+    height: 30px;
+    display: none;
+
+}
+
+.innerporticon2 {
+    width: 80px;
+    height: 30px;
+
+    display: flex;
+}
+
+.innerporticon2 .circleport {
+    width: 50%;
+    height: 100%;
+    border-radius: 50%;
+    margin: 5px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circleport i {
+
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.circleport:hover {
+    background: white;
+}
+
+.circleport:hover.circleport i {
+    background: white;
+    color: #ff214f;
+}
+
+
+.portbox:hover .innerboxport {
+    height: 100%;
+}
+
+
+.portbox:hover .innerboxport p {
+    display: block;
+}
+
+.portbox:hover .innerporticon {
+    display: block;
+}
+
+
+
+
+.portbo1 {
+
+    grid-row: 1/5;
+    background-image: url("./img/folio-1.jpg");
+    background-size: 100% 100%;
+}
+
+.portbo2 {
+
+    grid-row: 1/4;
+    background-image: url("./img/folio-2.jpg");
+    background-size: 100% 100%;
+}
+
+.portbo3 {
+
+    grid-row: 1/6;
+    background-image: url("./img/folio-3.jpg");
+    background-size: 100% 100%;
+}
+
+.portbo4 {
+
+    grid-row: 5/-1;
+    background-image: url("./img/folio-4.jpg");
+    background-size: 100% 100%;
+}
+
+.portbo5 {
+
+    grid-row: 4/-1;
+    background-image: url("./img/folio-5.jpg");
+    background-size: 100% 100%;
+}
+
+.portbo6 {
+
+    grid-row: 6/-1;
+    background-image: url("./img/folio-6.jpg");
+    background-size: 100% 100%;
+}

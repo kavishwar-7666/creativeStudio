@@ -1,0 +1,563 @@
+@media screen and (max-width:576px) {
+    body {
+        width: 100%;
+    }
+
+    .header {
+        display: none;
+        /* width: 100vw; */
+    }
+
+
+    .headerone {
+        width: 100%;
+    }
+
+    .headersecond {
+        display: none;
+    }
+
+    .webin {
+        min-height: 300px;
+
+    }
+
+    #headerone {
+        display: none;
+
+    }
+
+    /* responivesection  */
+    .responsive {
+        display: block;
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        /* border: 2px solid blue; */
+        background: rgba(0, 0, 0, 0);
+        position: fixed;
+        z-index: 9;
+        margin-top: 10px;
+    }
+
+    .navrespon {
+        width: 100%;
+        z-index: 8;
+
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logorespon {
+        width: 15%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+    }
+
+    .logorespon img {
+        width: 100%;
+        height: 48px;
+
+    }
+
+    .imgresponsive {
+        width: 15%;
+        height: 48px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imgresponsive i {
+        font-size: 40px;
+        font-weight: 500;
+        color: rgb(70, 67, 67);
+    }
+
+    .siderresponsive {
+        display: block;
+        width: 100%;
+        min-height: 300px;
+
+        z-index: 8;
+        display: flex;
+        justify-content: right;
+    }
+
+    .siderresponive_one {
+        width: 20%;
+        background: red;
+
+        position: relative;
+        top: 100px;
+    }
+
+    /* .responsive:hover .siderresponsive {
+        display: block;
+    } */
+
+    /* about section */
+    .about {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .imgabout {
+        width: 95%;
+
+    }
+
+    .imgboxab {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inforabout {
+        width: 100%;
+        justify-content: left;
+        padding: 10px 20px;
+
+    }
+
+    /* service section */
+
+    .boxservice {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .servicebox {
+        width: 75%;
+        margin: 10px 0px;
+        padding: 10px 20px;
+    }
+
+    .testbox {
+
+        padding: 0px 44px 0px 0px;
+    }
+
+    .test1 {
+        margin: 10px;
+    }
+
+    .test2 {
+        margin: 10px;
+    }
+
+    /* boxabout */
+    .boxabout {
+        height: 200px;
+    }
+
+    .boxaboutinner {
+        height: 300px;
+    }
+
+    .pmdp {
+        padding-left: 0px;
+        height: 300px;
+    }
+
+    .boxfirstabout {
+        height: 200px;
+    }
+
+    .boxfirstabout i {
+        display: none;
+    }
+
+
+    .cricleabout {
+        width: 100px;
+        height: 100px;
+    }
+
+    .cricleabout i {
+        display: block;
+        font-size: 30px;
+    }
+
+    .cricleabout p {
+
+        font-size: 15px;
+    }
+
+    /* form**** */
+    .form {
+        padding-top: 120px;
+    }
+
+    .testbox {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .mainform {
+        flex-direction: column;
+    }
+
+    .infoform {
+        width: 100%;
+    }
+
+    .inputform {
+        width: 100%;
+        padding: 0 18px;
+    }
+
+    .inputbox input {
+        width: 100%;
+
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    /* footer */
+
+    .mainfooter {
+        flex-direction: column;
+        padding: 20px 50px;
+    }
+
+    .footeraboutus {
+        width: 100%;
+    }
+
+    .footerline {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    body {
+        width: 100%;
+    }
+
+    .navigation ul li {
+        margin: 0px 10px;
+        font-size: 13px;
+
+    }
+
+    .headerone {
+        width: 100vw;
+    }
+
+    .headeronenavigation ul li {
+        margin: 0px 10px;
+        font-size: 14px;
+    }
+
+    .headeronenavigation {
+        padding-right: 30px;
+    }
+
+    .webin {
+        min-height: 300px;
+    }
+
+
+
+    .siderresponsive {
+        display: block;
+        width: 100%;
+        min-height: 300px;
+
+        z-index: 8;
+        display: flex;
+        justify-content: right;
+    }
+
+    .siderresponive_one {
+        width: 20%;
+        background: red;
+
+        position: relative;
+        top: 100px;
+    }
+
+
+
+    /* about section */
+    .about {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .imgabout {
+        width: 95%;
+
+    }
+
+    .imgboxab {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inforabout {
+        width: 100%;
+        justify-content: left;
+        padding: 10px 20px;
+
+    }
+
+    /* service section */
+
+    .boxservice {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .servicebox {
+        width: 75%;
+        margin: 10px 0px;
+        padding: 10px 20px;
+    }
+
+    .testbox {
+
+        padding: 0px 44px 0px 0px;
+    }
+
+    .test1 {
+        margin: 10px;
+    }
+
+    .test2 {
+        margin: 10px;
+    }
+
+    /* boxabout */
+    .boxabout {
+        height: 200px;
+    }
+
+    .boxaboutinner {
+        height: 300px;
+    }
+
+    .pmdp {
+        padding-left: 0px;
+        height: 300px;
+    }
+
+    .boxfirstabout {
+        height: 200px;
+    }
+
+    .boxfirstabout i {
+        display: none;
+    }
+
+
+    .cricleabout {
+        width: 100px;
+        height: 100px;
+    }
+
+    .cricleabout i {
+        display: block;
+        font-size: 30px;
+    }
+
+    .cricleabout p {
+
+        font-size: 15px;
+    }
+
+    /* form**** */
+    .form {
+        padding-top: 120px;
+    }
+
+    .testbox {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .mainform {
+        flex-direction: column;
+    }
+
+    .infoform {
+        width: 100%;
+    }
+
+    .inputform {
+        width: 100%;
+        padding: 0 18px;
+    }
+
+    .inputbox input {
+        width: 100%;
+
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    /* footer */
+
+    .mainfooter {
+        flex-direction: column;
+        padding: 20px 50px;
+    }
+
+    .footeraboutus {
+        width: 100%;
+    }
+
+    .footerline {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    body {
+        width: 100vw;
+    }
+
+    .navigation ul li {
+        margin: 0px 10px;
+        font-size: 13px;
+
+    }
+
+    .headerone {
+        width: 100vw;
+    }
+
+    .headeronenavigation ul li {
+        margin: 0px 10px;
+        font-size: 14px;
+    }
+
+    .headeronenavigation {
+        padding-right: 30px;
+    }
+
+    .webin {
+        min-height: 300px;
+    }
+
+
+
+    .siderresponsive {
+        display: block;
+        width: 100%;
+        min-height: 300px;
+
+        z-index: 8;
+        display: flex;
+        justify-content: right;
+    }
+
+    .siderresponive_one {
+        width: 20%;
+        background: red;
+
+        position: relative;
+        top: 100px;
+    }
+
+
+
+
+
+
+
+
+
+    /* service section */
+
+
+
+    .testbox {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 44px 0px 0px;
+    }
+
+    .test1 {
+        margin: 10px;
+    }
+
+    .test2 {
+        margin: 10px;
+    }
+
+    /* boxabout */
+    .boxabout {
+        height: 200px;
+    }
+
+    .boxaboutinner {
+        height: 300px;
+    }
+
+    .pmdp {
+        padding-left: 0px;
+        height: 300px;
+    }
+
+    .boxfirstabout {
+        height: 200px;
+    }
+
+    .boxfirstabout i {
+        display: none;
+    }
+
+
+    .cricleabout {
+        width: 100px;
+        height: 100px;
+    }
+
+    .cricleabout i {
+        display: block;
+        font-size: 30px;
+    }
+
+    .cricleabout p {
+
+        font-size: 15px;
+    }
+
+    /* form**** */
+
+}
+
+/* ****************responsive**************** */
